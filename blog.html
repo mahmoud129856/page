@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المدونة - Collectra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-gray-500 to-gray-300 text-white">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <img src="https://i.postimg.cc/prhMBT76/1000229990-removebg-preview.png" 
+                     alt="Collectra Logo" 
+                     class="h-24 w-auto">
+            </a>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-colors">Home</a>
+                <a href="about.html" class="px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-colors">About Us</a>
+                <a href="services.html" class="px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-colors">Our Services</a>
+                <a href="blog.html" class="px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-colors">Blog</a>
+                <a href="contact.html" class="px-4 py-2 rounded-lg hover:bg-white hover:text-black transition-colors">Contact Us</a>
+            </div>
+            <button class="md:hidden text-white">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Blog</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <img src="https://i.postimg.cc/fy4HSf4k/111111111111111111111111111111.png" alt="Blog Post" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">GitHub Login Automation — Automated Process</h3>
+                    <p class="text-gray-600 mb-4">Automating the login process on GitHub to save time and ensure accuracy</p>
+                    <a href="https://mostaql.com/portfolio/2859387-github-login-automation-automated-process" class="text-gray-600 hover:text-yellow-600 font-semibold">Read More</a>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <img src="https://i.postimg.cc/s2pwWZc2/image.png" alt="Blog Post" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">ُExtract datam properties from Nawy</h3>
+                    <p class="text-gray-600 mb-4">Extract 16500 properties from Nawy (Web Scraping)</p>
+                    <a href="https://mostaql.com/portfolio/2859390-%D8%AC%D9%85%D8%B9-%D8%AF%D8%A7%D8%AA%D8%A7-%D9%85%D9%86-%D9%85%D9%88%D9%82%D8%B9-nawy-%D9%84%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D8%A7%D8%AA" class="text-gray-600 hover:text-yellow-600 font-semibold">Read More</a>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <img src="https://i.postimg.cc/CKFFybzy/Screenshot-2025-06-06-212457.png" alt="Blog Post" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">Carrefour Product Insights — Web Scraping & Data Analysis</h3>
+                    <p class="text-gray-600 mb-4">Collecting data from Carrefour website and analyzing it to get insights(Deep learning)</p>
+                    <a href="https://mostaql.com/portfolio/2857555-%D8%AC%D9%85%D8%B9-16-%D8%A7%D9%84%D9%81-%D9%85%D9%86%D8%AA%D8%AC-%D9%85%D9%86-%D9%85%D8%AA%D8%A7%D8%AC%D8%B1-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D9%87-%D9%84%D8%A7%D8%AD%D8%AF-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1" class="text-gray-600 hover:text-yellow-600 font-semibold">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-600 text-white py-100">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
